@@ -2,7 +2,7 @@
     display: flex;
     z-index: -2;
     position: absolute;
-    width: 1903px;
+    width: 100vw;
     height: 796px;
     left: 0px;
     top: 1833px;
@@ -15,7 +15,7 @@
     z-index: -1;
     display: flex;
     position: absolute;
-    width: 1903px;
+    width: 100vw;
     height: 877px;
     left: 0px;
     bottom: 0px;
