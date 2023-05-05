@@ -1,24 +1,18 @@
-main{
+#testemunhos{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-.titulo{
-    display: flex;
-    width: 422px;
-    height: 96px;
+.titulo-contato{
     font-style: normal;
     font-weight: 900;
     font-size: 64px;
     line-height: 96px;
-    align-items: center;
     text-align: center;
-    justify-content: center;
     text-transform: uppercase;
-    color: #7C4032; 
-    margin-left: 235px;   
-
+    color: #7C4032;
+    margin: 0px;
 }
 .caixa{
     display:flex;
@@ -33,29 +27,26 @@ main{
     border-style: none;
 
 }
-button{
+#contato button{
     display: flex;
-    padding: 14px;
+    align-self: center;
     justify-content: center;
-    width: 52px;
-    height: 23px;
-    left: 719px;
-    font-family: 'Poppins';
+    align-items: center;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
     line-height: 21px;
     color: #7C4032;
-    text-align: center;
-    margin-top: 14px;
-    box-sizing: border-box; 
+    text-align: center; 
     width: 168px;
     height: 56px;
-    left: 661px;
-    top: 3027px;
     border: 3px solid #7C4032;
     border-radius: 61px;
-    margin-left:110px;
+    margin: 14px 0px 50px 0px;
+}
+.box-form{
+    display: flex;
+    flex-direction: column;
 }
 li{
     gap:5px;
@@ -68,7 +59,6 @@ li{
 .box{
     display: flex;
     justify-content: center;
-    
 }
 .lista{
     display: flex;
