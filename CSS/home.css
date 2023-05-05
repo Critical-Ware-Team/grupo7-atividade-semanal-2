@@ -1,7 +1,11 @@
+#home{
+    width: 100vw;
+}
 #home article{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
     background-color: #FEF4DE;
     background-image: url(/imagens-home/Fundo.svg);
 }
