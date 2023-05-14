@@ -10,18 +10,22 @@
     background-image: url(/imagens-home/Fundo.svg);
 }
 #top-img-home{
-    background-color: var(--marrom-1);
+    background-color: var(--marrom-2);
     width: 100vw;
     height: 389px;
     clip-path: path("M0 235.302C1010.57 235.302 1689.74 337.767 1903 389V0H0V235.302Z");
     margin-top: -276px;
+    display: block;
+    /* height: auto; */
 }
 #bottom-img-home{
-    background-color: var(--marrom-1);
+    background-color: var(--marrom-2);
     width: 100vw;
     height: 389px;
-    clip-path: path("M0 235.302C1010.57 235.302 1689.74 337.767 1903 389V0H0V235.302Z");
-    rotate: 180deg;
+    clip-path: path("M0 41.3024C1010.57 41.3024 1689.74 143.767 1903 195V0.5H0V41.3024Z");
+    margin-top: -260px;
+    margin-bottom: -1px;
+    transform: rotate(180deg);
 }
 #conteudo-home{
     display: flex;

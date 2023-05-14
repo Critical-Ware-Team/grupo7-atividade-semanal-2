@@ -15,3 +15,6 @@ main{
     font-family: 'Poppins', sans-serif;
     color: var(--marrom-1);
 }
+html, body{
+    overflow-x: hidden;
+}

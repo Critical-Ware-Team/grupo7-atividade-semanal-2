@@ -1,4 +1,4 @@
-#testemunhos{
+#contato{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,6 +13,7 @@
     text-transform: uppercase;
     color: #7C4032;
     margin: 0px;
+    margin: 42px 0px 50px 0px;
 }
 .caixa{
     display:flex;

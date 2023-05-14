@@ -5,6 +5,7 @@
 }
 #testemunhos article{
     display: flex;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -20,12 +21,16 @@
     text-align: center;
     height: 96px;
     width: 505px;
+    color: var(--marrom-2);
 }
 
 #testemunhos-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-self: center;
+    max-width: 1500px;
+    min-width: 1499px;
 }
 
 .testemunhos-card{
@@ -46,7 +51,7 @@
     font-weight: 900;
     font-size: 16px;
     line-height: 24px;
-    color: #7C4032;
+    color: var(--marrom-1);
 }
 
 .testemunhos-card-p{
